@@ -5,35 +5,44 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
-    title: "Data Science",
+    title: "Java Full Stack",
+    cardImage: "assets/images/education-page/ps2.png",
+    moocLink: "https://pentagonspace.in/java-full-stack",
+  },
+  {
+    title: "JavaScript",
+    cardImage: "assets/images/education-page/guvi.png",
+    moocLink: "https://www.guvi.com/courses/web-development/javascript/",
+  },
+
+  {
+    title: "Python",
+    cardImage: "assets/images/education-page/guvi.png",
+    moocLink: "https://www.guvi.com/python/",
+  },
+  {
+    title: "MongoDB",
+    cardImage: "assets/images/education-page/guvi.png",
+    moocLink:
+      "https://www.guvi.com/courses/database-and-cloud-computing/mongo-db/",
+  },
+  {
+    title: "MySQL",
+    cardImage: "assets/images/education-page/guvi.png",
+    moocLink: "https://www.guvi.com/courses/mysqlenglish",
+  },
+  {
+    title: "Web Development",
+    cardImage: "assets/images/education-page/svlogo.png",
+    moocLink: "https://www.skillvertex.com/web-development/",
+  },
+  {
+    title: "Introduction to cloud Computing",
     cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/browse/data-science",
+    moocLink: "https://www.coursera.org/learn/introduction-to-cloud",
   },
-  {
-    title: "Cryptography",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
-  },
-  {
-    title: "Machine Learning",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/machine-learning",
-  },
-  {
-    title: "Introduction to HTML 5",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
-  },
-  {
-    title: "Introduction to CSS 3",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
-  },
-  {
-    title: "Javascript",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-javascript--ud803",
-  },
+
+  /*
   {
     title: "Bootstrap 4",
     cardImage: "assets/images/education-page/udemy.svg",
@@ -66,6 +75,7 @@ const moocscards = [
     moocLink:
       "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
   },
+  */
 ];
 
 const experience = [

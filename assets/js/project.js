@@ -6,12 +6,21 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
-    title: "Movie Booking App",
+    title: "Movie Booking Application[frontend]",
     cardImage: "assets/images/project-page/moviebooking.png",
-    description: "A quiz app built using basic react.",
+    description: "A Movie booking application built using react.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "https://movie-ticket-booker-6cky.onrender.com/",
     Githublink: "https://github.com/noobmaster69jr/Movie_Booking_application",
+  },
+  {
+    title: "Movie Booking Application Backend",
+    cardImage: "assets/images/project-page/mbaBK.png",
+    description:
+      "A Movie Booking Application Backend project built using Node.js, read more about here https://github.com/noobmaster69jr/Movie_booking_backend/blob/master/README.md",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "https://movie-booking-app-gtjz.onrender.com/",
+    Githublink: "https://github.com/noobmaster69jr/Movie_booking_backend",
   },
   {
     title: "Tic tac toe",

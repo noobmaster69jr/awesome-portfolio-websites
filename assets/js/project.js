@@ -6,7 +6,7 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
-    title: "Movie Booking Application[frontend]",
+    title: "Movie Booking Application [frontend]",
     cardImage: "assets/images/project-page/moviebooking.png",
     description: "A Movie booking application built using react.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
@@ -14,10 +14,19 @@ const projects = [
     Githublink: "https://github.com/noobmaster69jr/Movie_Booking_application",
   },
   {
-    title: "Movie Booking Application Backend",
+    title: "Customer Relationship Management Application [Backend]",
+    cardImage: "assets/images/project-page/crmBK.png",
+    description:
+      "Backend project for Customer Relationship Management application build using Node.js, Express, MongoDB",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "https://crm-frontend-r0ui.onrender.com",
+    Githublink: "https://github.com/noobmaster69jr/CRM_app_backend",
+  },
+  {
+    title: "Movie Booking Application [Backend]",
     cardImage: "assets/images/project-page/mbaBK.png",
     description:
-      "A Movie Booking Application Backend project built using Node.js, read more about here https://github.com/noobmaster69jr/Movie_booking_backend/blob/master/README.md",
+      "A Movie Booking Application Backend project built using Node.js,Express, MongoDB. read more about here https://github.com/noobmaster69jr/Movie_booking_backend/blob/master/README.md",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "https://movie-booking-app-gtjz.onrender.com/",
     Githublink: "https://github.com/noobmaster69jr/Movie_booking_backend",
